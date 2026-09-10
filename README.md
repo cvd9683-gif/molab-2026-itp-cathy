@@ -1,4 +1,4 @@
-# molab-2025-09-cathy
+# molab-2026-itp-cathy
 
 Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.com/molab-itp/content-2025-09).
 
