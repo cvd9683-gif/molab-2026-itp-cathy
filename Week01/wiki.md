@@ -6,6 +6,8 @@
 - [garden page](<./Garden.playground/Pages/garden.xcplaygroundpage/Contents.swift>): my random plant emoji garden
 - [generative random page](<./Garden.playground/Pages/generative random.xcplaygroundpage/Contents.swift>): sample code copied from the class repo
 
+**Week02:** [`NYCSkyline.playground`](../Week02/NYCSkyline.playground): ascii New York skyline at night
+
 **Class repos I cloned:**
 - [01-Javascript-to-Swift](https://github.com/molab-itp/01-Javascript-to-Swift)
 - [01-Playground](https://github.com/molab-itp/01-Playground)
