@@ -1,11 +1,23 @@
 # Wiki 1 (in Class) — Cathy
 
+## Links
+
+**My playground:** [`Garden.playground`](./Garden.playground)
+- [garden page](<./Garden.playground/Pages/garden.xcplaygroundpage/Contents.swift>): my random plant emoji garden
+- [generative random page](<./Garden.playground/Pages/generative random.xcplaygroundpage/Contents.swift>): sample code copied from the class repo
+
+**Class repos I cloned:**
+- [01-Javascript-to-Swift](https://github.com/molab-itp/01-Javascript-to-Swift)
+- [01-Playground](https://github.com/molab-itp/01-Playground)
+
+**Course:** [content-2025-09](https://github.com/molab-itp/content-2025-09)
+
 ## What programming languages have you used? How much?
 
 - **JavaScript / TypeScript** — a lot. Most of what I build is in JS/TS: React + Vite prototypes, my portfolio site, and creative-coding projects (hand tracking with MediaPipe, sound with Tone.js).
 - **HTML / CSS** — a lot. Single-page interactive sites and UI prototypes.
 - **Python** — some.
-- **Swift** — brand new as of this week (see [`TextArt.playground`](./TextArt.playground)).
+- **Swift** — brand new as of this week (see [`Garden.playground`](./Garden.playground)).
 
 ## What is your favorite mobile app and why?
 

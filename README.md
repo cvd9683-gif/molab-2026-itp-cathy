@@ -4,4 +4,4 @@ Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.co
 
 | Week | Work |
 | --- | --- |
-| [Week01](./Week01) | [Student wiki](./Week01/wiki.md) + Swift fundamentals plan + `TextArt.playground` (text art with variables, loops, functions) |
+| [Week01](./Week01) | [Student wiki](./Week01/wiki.md) + Swift fundamentals plan + [`Garden.playground`](./Week01/Garden.playground) (random emoji garden) |

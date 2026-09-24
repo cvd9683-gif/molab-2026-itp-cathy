@@ -4,30 +4,10 @@
 
 ## Part 2 — text art playground
 
-[`TextArt.playground`](./TextArt.playground) — two pages, both plain Foundation
-(no UIKit), so they run in Xcode *and* from Terminal.
+[`Garden.playground`](./Garden.playground) has two pages:
 
-| Page | What it draws | Language features |
-| --- | --- | --- |
-| `text art` | banner, diamond, sine wave, ripple field, gradient border | `let` / `var`, nested `for` loops, functions with default + labelled arguments, `Array<Character>` indexing |
-| `generative random` | mirrored mandala, random walk | a seeded `RandomNumberGenerator` struct, `inout` generator arguments, optionals, `dropLast` / `reversed` |
-
-Open `TextArt.playground` in Xcode and show the console with **Cmd-Shift-Y** —
-`print` output does not appear in the results sidebar.
-
-To run a page without Xcode:
-
-```
-swift "Week01/TextArt.playground/Pages/text art.xcplaygroundpage/Contents.swift"
-```
-
-The `generative random` page is seeded (`let seed: UInt64 = 20_250_910`), so the
-same seed always produces the same piece. Change the seed for a new one.
-
-Errors I hit while writing these are documented in comments at the bottom of
-each page (String integer subscripting, `Character` vs `String` concatenation,
-unwrapping `randomElement`, `inout` generators, and arithmetic overflow in the
-hash-style PRNG).
+- `garden`: my code. It prints a random garden of plant emojis, and every run looks different.
+- `generative random`: sample code copied from the class [01-Playground](https://github.com/molab-itp/01-Playground) repo.
 
 ## Part 1 — swift fundamentals plan
 
