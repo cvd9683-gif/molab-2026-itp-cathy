@@ -1,4 +1,4 @@
-# Student wiki — Cathy
+# Wiki 1 (in Class) — Cathy
 
 ## What programming languages have you used? How much?
 
