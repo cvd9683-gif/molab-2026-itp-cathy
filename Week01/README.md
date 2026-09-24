@@ -1,5 +1,7 @@
 # Week 01
 
+[Student wiki page](./wiki.md): languages I've used, favorite mobile app, final project ideas.
+
 ## Part 2 — text art playground
 
 [`TextArt.playground`](./TextArt.playground) — two pages, both plain Foundation
