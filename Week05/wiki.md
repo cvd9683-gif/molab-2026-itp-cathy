@@ -2,13 +2,14 @@
 
 ## Links
 
-**My project:** [`BasicNav`](./BasicNav), one app with a navigation list that holds the class demos, plus app storage ([README](./README.md))
+**My project:** [`BasicNav`](./BasicNav), one app with a navigation list that holds the class demos, plus app storage and heart shapes ([README](./README.md))
 
 **Class repos:**
 - [03-ImageUiDemo-1-symbols](https://github.com/molab-itp/03-ImageUiDemo-1-symbols) (Page1–Page9)
 - [03-UIGraphics-View](https://github.com/molab-itp/03-UIGraphics-View)
 - [04-Audio-State-Demo](https://github.com/molab-itp/04-Audio-State-Demo) (PlayAudioView)
 - [05-AppStorageDemo](https://github.com/molab-itp/05-AppStorageDemo) (Part 2)
+- [05-Heart-Shapes](https://github.com/molab-itp/05-Heart-Shapes) (Part 2)
 
 ## Weekly summary
 
@@ -16,7 +17,7 @@
 - **Week 02:** [`NYCSkyline.playground`](../Week02/NYCSkyline.playground), an ascii New York skyline from text files.
 - **Week 03:** [`MoodPrint`](../Week03/MoodPrint), a multi-view SwiftUI 10print where your mood picks the colors, line thickness and slant.
 - **Week 04:** `Breathe`, a breathing guide that uses a timer and sound.
-- **Week 05:** [`BasicNav`](./BasicNav), the class demos gathered behind one navigation list, plus `@AppStorage` to remember your name and last sound.
+- **Week 05:** [`BasicNav`](./BasicNav), the class demos gathered behind one navigation list, plus `@AppStorage` to remember your name and last sound, and a pulsing heart shape.
 
 ## Progress
 
@@ -29,6 +30,10 @@
 - Added `AppStorageView` with a `TextField`, so you can type your name and it's saved on the device.
 - `Page9` reads the same `"username"` key, so the list greets you: "Hi, Cathy". Two views share data just by using the same key.
 - `PlayAudioView` now uses `@AppStorage("soundIndex")`, so it reopens on the sound you were last on.
+
+**Part 2: heart shapes** (from [05-Heart-Shapes](https://github.com/molab-itp/05-Heart-Shapes))
+- Added `HeartPulseView` as a new row. The heart is a custom `Shape` made with a `Path` (two curves + two arcs), and it pulses with a repeating animation.
+- Learned `@Binding`: the Play button changes a `@State` value that belongs to the page it sits on.
 
 ## Problems
 
@@ -44,6 +49,8 @@
 - Look at [05-CustomFont](https://github.com/molab-itp/05-CustomFont) for the custom fonts research.
 
 ## Questions
+
+- How does `path(in:)` know the size of the heart? Where does `rect` come from?
 
 - `@AppStorage` is for small values. What should I use to save bigger things, like a list of patterns or images?
 - `NavigationView` is deprecated. What changes when I switch to `NavigationStack`?

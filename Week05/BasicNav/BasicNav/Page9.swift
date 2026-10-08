@@ -68,6 +68,12 @@ struct Page9: View {
                 } label: {
                     Text("AppStorageView")
                 }
+                // from 05-Heart-Shapes
+                NavigationLink {
+                    HeartPulseView()
+                } label: {
+                    Text("HeartPulseView")
+                }
             }
             // inside NavigationView so the title shows
             .navigationTitle("Hi, \(username)")

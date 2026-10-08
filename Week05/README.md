@@ -16,6 +16,7 @@ Built the way the assignment describes:
 | UIGraphicsView | an image computed with `UIGraphicsImageRenderer` |
 | PlayAudioView | audio playback from files in the app bundle (remembers which sound you were on) |
 | AppStorageView | `@AppStorage` demo: your name and a score, saved on the device |
+| HeartPulseView | a heart drawn with a custom `Shape` that pulses when you tap Play |
 
 ### Part 2: app storage
 
@@ -26,6 +27,13 @@ Added [05-AppStorageDemo](https://github.com/molab-itp/05-AppStorageDemo) and co
 - **`PlayAudioView`**: `soundIndex` changed from `@State` to `@AppStorage("soundIndex")`, so the app remembers which sound you were on. I also added `.onDisappear { player?.stop() }`, so the looping sound stops when you go back to the list.
 
 To test: type your name, go back (the title changes), then stop the app in Xcode and run it again. Your name is still there.
+
+### Part 2: heart shapes
+
+Also added [05-Heart-Shapes](https://github.com/molab-itp/05-Heart-Shapes), from Apple's [Animating Shapes](https://developer.apple.com/tutorials/sample-apps/animatingshapes) sample:
+
+- **`HeartPulse.swift`**: `Heart` is a custom `Shape`. Its `path(in:)` draws the heart from two curves and two arcs. `PulsingHeart` grows and shrinks forever with `withAnimation(.easeInOut.repeatForever(autoreverses: true))`.
+- **`ShapeButtonStyle.swift`**: the Play/Reset button. It uses `@Binding` to switch the `pulsing` flag that lives in `HeartPulseView`.
 
 **One change to the class code:** in `Page9`, `.navigationTitle` was attached outside the `NavigationView`, so the title never showed. I moved it inside, onto the `List`, and named it "BasicNav".
 
