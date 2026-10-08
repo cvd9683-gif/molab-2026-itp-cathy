@@ -4,6 +4,9 @@
 import SwiftUI
 
 struct Page9: View {
+    // same key as AppStorageView, so the name typed there shows up here
+    @AppStorage("username") var username: String = "friend"
+
     var body: some View {
         NavigationView {
             List {
@@ -59,9 +62,15 @@ struct Page9: View {
                 } label: {
                     Text("PlayAudioView")
                 }
+                // from 05-AppStorageDemo
+                NavigationLink {
+                    AppStorageView()
+                } label: {
+                    Text("AppStorageView")
+                }
             }
             // inside NavigationView so the title shows
-            .navigationTitle("BasicNav")
+            .navigationTitle("Hi, \(username)")
         }
     }
 }

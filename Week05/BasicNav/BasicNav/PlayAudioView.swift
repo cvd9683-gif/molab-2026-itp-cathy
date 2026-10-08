@@ -29,8 +29,11 @@ func loadBundleAudio(_ fileName:String) -> AVAudioPlayer? {
 }
 
 struct PlayAudioView: View {
-    @State private var soundIndex = 0
-    @State private var soundFile = bundleAudio[0]
+    // @AppStorage remembers which sound you were on, even after the app quits
+    @AppStorage("soundIndex") private var soundIndex = 0
+    var soundFile: String {
+        bundleAudio[soundIndex % bundleAudio.count]
+    }
     @State private var player: AVAudioPlayer? = nil
     var body: some View {
         TimelineView(.animation) { context in
@@ -50,7 +53,6 @@ struct PlayAudioView: View {
                     }
                     Button("Next") {
                         soundIndex = (soundIndex+1) % bundleAudio.count
-                        soundFile = bundleAudio[soundIndex];
                     }
                 }
                 Text("soundIndex \(soundIndex)")
@@ -60,6 +62,10 @@ struct PlayAudioView: View {
                     Text("currentTime " + String(format: "%.1f", player.currentTime))
                 }
             }
+        }
+        .onDisappear {
+            // stop the sound when going back to the list
+            player?.stop()
         }
     }
 }

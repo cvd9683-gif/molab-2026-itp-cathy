@@ -14,7 +14,18 @@ Built the way the assignment describes:
 | --- | --- |
 | Page1 – Page8 | the SF Symbols layout demos (stacks, arrays + ForEach, List, navigation, controls, Picker) |
 | UIGraphicsView | an image computed with `UIGraphicsImageRenderer` |
-| PlayAudioView | audio playback from files in the app bundle |
+| PlayAudioView | audio playback from files in the app bundle (remembers which sound you were on) |
+| AppStorageView | `@AppStorage` demo: your name and a score, saved on the device |
+
+### Part 2: app storage
+
+Added [05-AppStorageDemo](https://github.com/molab-itp/05-AppStorageDemo) and connected it to the rest of the app, so saved data shows up across pages:
+
+- **`AppStorageView`** (new row): the class demo, plus a `TextField` to type your own name. `@AppStorage("username")` saves it as you type.
+- **`Page9`** reads the same `@AppStorage("username")` key, so its title greets you, e.g. **"Hi, Cathy"**. It still says it after you quit and reopen the app.
+- **`PlayAudioView`**: `soundIndex` changed from `@State` to `@AppStorage("soundIndex")`, so the app remembers which sound you were on. I also added `.onDisappear { player?.stop() }`, so the looping sound stops when you go back to the list.
+
+To test: type your name, go back (the title changes), then stop the app in Xcode and run it again. Your name is still there.
 
 **One change to the class code:** in `Page9`, `.navigationTitle` was attached outside the `NavigationView`, so the title never showed. I moved it inside, onto the `List`, and named it "BasicNav".
 
