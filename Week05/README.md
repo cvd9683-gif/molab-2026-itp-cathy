@@ -16,6 +16,16 @@ Built the way the assignment describes:
 | UIGraphicsView | an image computed with `UIGraphicsImageRenderer` |
 | PlayAudioView | audio playback from files in the app bundle |
 
+## Part 2: Check-in, saved with `@AppStorage`
+
+From [05-AppStorageDemo](https://github.com/molab-itp/05-AppStorageDemo), I added a **Check-in** row to the list ([`CheckInView.swift`](./BasicNav/BasicNav/CheckInView.swift)). It asks your name and how you're arriving today, and it remembers:
+
+- your **name**: `Page9` reads the same `"name"` key, so the list title turns into "Hi, Cathy". Two views, one source of truth.
+- your **feeling** from last time ("You arrived feeling 🌙 tired")
+- how many **visits**, and **when** the last one was. `@AppStorage` can't hold a `Date`, so I store seconds since 1970 as a `Double`.
+
+Quit the app and open it again: everything is still there. **Forget me** clears it.
+
 **One change to the class code:** in `Page9`, `.navigationTitle` was attached outside the `NavigationView`, so the title never showed. I moved it inside, onto the `List`, and named it "BasicNav".
 
 Open `BasicNav/BasicNav.xcodeproj` in Xcode, pick an iPhone simulator, and press **Cmd-R**.

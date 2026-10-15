@@ -4,6 +4,9 @@
 import SwiftUI
 
 struct Page9: View {
+    // same key as CheckInView, so the title changes when you type your name
+    @AppStorage("name") var name: String = ""
+
     var body: some View {
         NavigationView {
             List {
@@ -59,9 +62,15 @@ struct Page9: View {
                 } label: {
                     Text("PlayAudioView")
                 }
+                // from 05-AppStorageDemo
+                NavigationLink {
+                    CheckInView()
+                } label: {
+                    Text("Check-in")
+                }
             }
             // inside NavigationView so the title shows
-            .navigationTitle("BasicNav")
+            .navigationTitle(name.isEmpty ? "BasicNav" : "Hi, \(name)")
         }
     }
 }
