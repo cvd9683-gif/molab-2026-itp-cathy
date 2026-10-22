@@ -19,3 +19,4 @@ Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.co
 - [ ] able to build and run example apps own iPhone
 - [ ] installed Xcode 26
 - [ ] watched at least one WWDC video
+- [ ] Upload profile photo to HOS-Lobby app
