@@ -10,6 +10,7 @@ Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.co
 | [Week04](./Week04) | [`Breathe`](./Week04/Breathe) (two-page SwiftUI breathing guide with a timer and sound) + [wiki](./Week04/wiki.md) |
 | [Week05](./Week05) | [`BasicNav`](./Week05/BasicNav) (class demos behind one navigation list + a Check-in page saved with `@AppStorage`) + [wiki](./Week05/wiki.md) |
 | [Week06](./Week06) | [`MoodJournal`](./Week06/MoodJournal) (mood log with Router navigation, saved as JSON) + [wiki](./Week06/wiki.md) |
+| [Week08](./Week08) | [`VideoBooth`](./Week08/VideoBooth) (pick a short video and play it on a loop with funny Core Image effects) |
 
 ## Midterm checklist
 
