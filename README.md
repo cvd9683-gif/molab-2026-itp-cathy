@@ -11,6 +11,7 @@ Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.co
 | [Week05](./Week05) | [`BasicNav`](./Week05/BasicNav) (class demos behind one navigation list + a Check-in page saved with `@AppStorage`) + [wiki](./Week05/wiki.md) |
 | [Week06](./Week06) | [`MoodJournal`](./Week06/MoodJournal) (mood log with Router navigation, saved as JSON) + [wiki](./Week06/wiki.md) |
 | [Week07](./Week07) | [`PhotoBooth`](./Week07/PhotoBooth) (choose a photo and try three funny Core Image filters) |
+| [Week08](./Week08) | [`VideoBooth`](./Week08/VideoBooth) (pick a short video and play it on a loop with funny Core Image effects) |
 
 ## Midterm checklist
 
