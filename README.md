@@ -24,7 +24,7 @@ My class wiki page: [05‐Cathy-Doss](https://github.com/molab-itp/content-2026-
 - [x] weekly description of homework progress/challenges in your wiki page
 - [x] added jht9629-nyu as collab on your repo
 - [x] uploaded at least one photo in MoGallery TestFlight App
-- [ ] able to build and run example apps own iPhone
+- [x] able to build and run example apps own iPhone
 - [x] installed Xcode 27
 - [x] watched at least one WWDC video
 - [x] Upload profile photo to HOS-Lobby app
