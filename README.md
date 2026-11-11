@@ -2,6 +2,8 @@
 
 Classwork for Mobile Lab (ITP, Fall 2026) — [course content](https://github.com/molab-itp/content-2026-itp).
 
+My class wiki page: [05‐Cathy-Doss](https://github.com/molab-itp/content-2026-itp/wiki/05%E2%80%90Cathy-Doss) (weekly progress for every week, plus my AI prompt log).
+
 | Week | Work |
 | --- | --- |
 | [Week01](./Week01) | [Student wiki](./Week01/wiki.md) + Swift fundamentals plan + [`Garden.playground`](./Week01/Garden.playground) (random emoji garden) |
