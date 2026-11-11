@@ -22,3 +22,10 @@
 ## Plans
 
 - Open `VideoBooth/VideoBooth.xcodeproj` on my Mac, press Cmd-R, and try a short clip in the simulator and on my iPhone.
+
+## AI prompts
+
+**1. Friday, Nov 6, 2026 (morning).** Tool: **Claude** (Claude Code, via the Claude + Codex Connector). Brief written by the **molab assistant**.
+
+- **Prompt (summary):** In parallel with Week 07, build a beginner-friendly video manipulation app on branch `week08-video-app-claude`: a video-booth companion (pick a short clip, funny visual effects), plain UI, comments, Week08 README with idea / honest run instructions / limitations / attribution. Learn from [08-CameraRecorder](https://github.com/molab-itp/08-CameraRecorder) and [08-FilterTheWorld](https://github.com/molab-itp/08-FilterTheWorld); don't copy them. Don't invent tests or merge. Full text is in [`AI-PROMPTS.md`](../AI-PROMPTS.md).
+- **Produced:** [`VideoBooth`](./VideoBooth) and [`README.md`](./README.md), committed 9:57 AM ET, [PR #5](https://github.com/cvd9683-gif/molab-2026-itp-cathy/pull/5) (later merged).

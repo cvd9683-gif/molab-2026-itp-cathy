@@ -28,3 +28,10 @@
 - Should "friends" be a real friend list, or (simpler for class) everyone who shares into one lobby, like MoLobby?
 - Month only, or also custom "periods" (e.g. "summer 2023", "first semester")?
 - Is a shared playlist enough as a text/link list, or should it open in Apple Music?
+
+## AI prompts
+
+**1. Wednesday, Nov 11, 2026.** Tool: **molab assistant**. Triggered by Cathy's message (quoted under Course planning in [`AI-PROMPTS.md`](../AI-PROMPTS.md)): "i want u to do all the missing assignments that i have and push them to github to my molab repo when its done."
+
+- **Prompt:** The assistant's plan, stated in this chat the same morning: Weeks 09–13 were still missing; Week 09 would be a proposal draft from Cathy's idea list plus a small Firebase app; Week 10 would be the final proposal and a week-by-week plan for Music Timeline; Weeks 11–13 would build the app in steps with docs; then push to her molab repo. Course spec: [Week 09 homework](https://github.com/molab-itp/content-2026-itp/blob/main/weeks/09_multi.md#homework-week09). No separate brief file was found; the same wording is in [`AI-PROMPTS.md`](../AI-PROMPTS.md).
+- **Produced:** [`proposal.md`](./proposal.md) (Music Timeline plus other ideas) and [`MakeItSo`](./MakeItSo), committed 9:54 AM ET.

@@ -20,3 +20,10 @@
 ## Plans
 
 - Open `PhotoBooth/PhotoBooth.xcodeproj` on my Mac, press Cmd-R, and try a photo in the simulator and on my iPhone.
+
+## AI prompts
+
+**1. Friday, Nov 6, 2026 (morning).** Tool: **Codex** (via the Claude + Codex Connector). Brief written by the **molab assistant**.
+
+- **Prompt (summary):** Build a beginner-friendly SwiftUI photo booth in a new branch and PR: PhotosUI to choose a photo, three funny Core Image filters plus Original, plain UI, comments, a Week07 README with idea / run instructions / walkthrough / limitations / attribution. Match Weeks 03–06 style. Use the [Week 07 spec](https://github.com/molab-itp/content-2026-itp/blob/main/weeks/07_photo.md) and [07-Instafilter](https://github.com/molab-itp/07-Instafilter) as a learning reference, not a copy. Don't invent tests or merge the PR. A short follow-up told Codex to use the local CLI (not CloudAgent). Full text is in [`AI-PROMPTS.md`](../AI-PROMPTS.md).
+- **Produced:** [`PhotoBooth`](./PhotoBooth) and [`README.md`](./README.md), committed 9:57 AM ET, [PR #4](https://github.com/cvd9683-gif/molab-2026-itp-cathy/pull/4) (later merged).

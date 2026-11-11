@@ -15,6 +15,8 @@ Classwork for Mobile Lab (ITP, Fall 2026) — [course content](https://github.co
 | [Week09](./Week09) | [Final project proposal draft](./Week09/proposal.md) (Music Timeline + other ideas) + [`MakeItSo`](./Week09/MakeItSo) (Firebase tutorial: reminders synced with Cloud Firestore) + [wiki](./Week09/wiki.md) |
 | [Week10](./Week10) | [Final project proposal + week-by-week plan](./Week10/README.md): Music Timeline + [wiki](./Week10/wiki.md) |
 
+[AI prompt log](./AI-PROMPTS.md) — prompts used for Weeks 07–10, plus the course-planning chat.
+
 ## Midterm checklist
 
 - [x] weekly description of homework progress/challenges in your wiki page
