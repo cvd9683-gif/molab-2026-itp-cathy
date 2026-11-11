@@ -1,6 +1,6 @@
 # molab-2026-itp-cathy
 
-Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.com/molab-itp/content-2025-09).
+Classwork for Mobile Lab (ITP, Fall 2026) — [course content](https://github.com/molab-itp/content-2026-itp).
 
 | Week | Work |
 | --- | --- |
@@ -12,13 +12,15 @@ Classwork for Mobile Lab (ITP, Fall 2025) — [course content](https://github.co
 | [Week06](./Week06) | [`MoodJournal`](./Week06/MoodJournal) (mood log with Router navigation, saved as JSON) + [wiki](./Week06/wiki.md) |
 | [Week07](./Week07) | [`PhotoBooth`](./Week07/PhotoBooth) (choose a photo and try three funny Core Image filters) |
 | [Week08](./Week08) | [`VideoBooth`](./Week08/VideoBooth) (pick a short video and play it on a loop with funny Core Image effects) |
+| [Week09](./Week09) | [Final project proposal draft](./Week09/proposal.md) (Music Timeline + other ideas) + [`MakeItSo`](./Week09/MakeItSo) (Firebase tutorial: reminders synced with Cloud Firestore) |
+| [Week10](./Week10) | [Final project proposal + week-by-week plan](./Week10/README.md): Music Timeline |
 
 ## Midterm checklist
 
 - [ ] weekly description of homework progress/challenges in your wiki page
 - [x] added jht9629-nyu as collab on your repo
-- [ ] uploaded at least one photo in MoGallery TestFlight App
+- [x] uploaded at least one photo in MoGallery TestFlight App
 - [ ] able to build and run example apps own iPhone
-- [ ] installed Xcode 26
+- [x] installed Xcode 27
 - [ ] watched at least one WWDC video
 - [ ] Upload profile photo to HOS-Lobby app
