@@ -22,5 +22,5 @@ Classwork for Mobile Lab (ITP, Fall 2026) — [course content](https://github.co
 - [x] uploaded at least one photo in MoGallery TestFlight App
 - [ ] able to build and run example apps own iPhone
 - [x] installed Xcode 27
-- [ ] watched at least one WWDC video
+- [x] watched at least one WWDC video
 - [ ] Upload profile photo to HOS-Lobby app
