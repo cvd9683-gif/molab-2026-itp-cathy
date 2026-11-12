@@ -14,8 +14,8 @@ My class wiki page: [05‐Cathy-Doss](https://github.com/molab-itp/content-2026-
 | [Week06](./Week06) | [`MoodJournal`](./Week06/MoodJournal) (mood log with Router navigation, saved as JSON) + [wiki](./Week06/wiki.md) |
 | [Week07](./Week07) | [`PhotoBooth`](./Week07/PhotoBooth) (choose a photo and try three funny Core Image filters) + [wiki](./Week07/wiki.md) |
 | [Week08](./Week08) | [`VideoBooth`](./Week08/VideoBooth) (pick a short video and play it on a loop with funny Core Image effects) + [wiki](./Week08/wiki.md) |
-| [Week09](./Week09) | [Final project proposal draft](./Week09/proposal.md) (Music Timeline + other ideas) + [`MakeItSo`](./Week09/MakeItSo) (Firebase tutorial: reminders synced with Cloud Firestore) + [wiki](./Week09/wiki.md) |
-| [Week10](./Week10) | [Final project proposal + week-by-week plan](./Week10/README.md): Music Timeline + [wiki](./Week10/wiki.md) |
+| [Week09](./Week09) | [Final project proposal draft](./Week09/proposal.md) (Date Dice + other ideas) + [`MakeItSo`](./Week09/MakeItSo) (Firebase tutorial: reminders synced with Cloud Firestore) + [wiki](./Week09/wiki.md) |
+| [Week10](./Week10) | [Final project proposal + week-by-week plan](./Week10/README.md): Date Dice + [wiki](./Week10/wiki.md) |
 
 [AI prompt log](./AI-PROMPTS.md) — prompts used for Weeks 07–10, plus the course-planning chat.
 

@@ -2,7 +2,7 @@
 
 ## Links
 
-**Proposal draft:** [`proposal.md`](./proposal.md) (main idea: **Music Timeline**, plus other concepts)
+**Proposal draft:** [`proposal.md`](./proposal.md) (main idea: **Date Dice**, plus other concepts)
 
 **Firebase Option 1:** [`MakeItSo`](./MakeItSo), a reminders list synced with Cloud Firestore ([README](./README.md))
 
@@ -10,8 +10,7 @@
 
 ## Progress
 
-- First draft of my final project proposal, assembled from my idea list. The pick for now is **Music Timeline**: log the songs that defined each month of your life, scroll your own timeline, and see friends' timelines (likes and comments). Stretch ideas on the list include a shared café / library DJ room, a BeReal-style song of the day, playlist rooms, an adlib counter, and a sample-web of connections.
-- This continues a web prototype I started in Shared Minds ([`week-4-music-map`](https://github.com/cvd9683-gif/shared-minds/tree/main/week-4-music-map)).
+- First draft of my final project proposal, assembled from my idea list. The pick for now is **Date Dice**: two people each roll dice on their own phone to plan a date *and* get a "go find" prompt, then each add a photo and a song (plus a short note), and it all builds a shared timeline of their dates. Music Timeline and my other ideas stay on the list.
 - Firebase Option 1: a simplified MakeItSo reminders app. Data lives in Cloud Firestore; a snapshot listener updates the list when anything changes, which is the multi-user part. Written with AI assistance.
 
 ## Problems
@@ -21,13 +20,11 @@
 
 ## Plans
 
-- Finish the Week 10 proposal and week-by-week plan. Build the offline timeline first, then add Firestore sharing, so the app is still useful if Firebase setup takes time.
+- The Week 10 proposal and week-by-week plan are in [`Week10/README.md`](../Week10/README.md). Week 11 starts with designs in Figma, then the offline dice and a local timeline. Week 12 adds the Firebase room and the shared photos and songs.
 
 ## Questions
 
-- Should "friends" be a real friend list, or (simpler for class) everyone who shares into one lobby, like MoLobby?
-- Month only, or also custom "periods" (e.g. "summer 2023", "first semester")?
-- Is a shared playlist enough as a text/link list, or should it open in Apple Music?
+- Is this for couples only, or for friends too?
 
 ## AI prompts
 

@@ -4,7 +4,7 @@ Homework: [Week09 Multi User Experience 1](https://github.com/molab-itp/content-
 
 | Part | What | Where |
 | --- | --- | --- |
-| 1 | First draft of the final project proposal (main idea **Music Timeline** + other concepts) | [`proposal.md`](./proposal.md) |
+| 1 | First draft of the final project proposal (main idea **Date Dice** + other concepts) | [`proposal.md`](./proposal.md) |
 | 2 | Firebase **Option 1**: build a Firebase tutorial app — **MakeItSo** | [`MakeItSo`](./MakeItSo) |
 
 ## Part 2: MakeItSo (Firebase tutorial, chapters 1–4)
@@ -60,4 +60,4 @@ Part 2 is a re-typed, simplified version of the MakeItSo tutorial by Peter Fries
 
 ## Wiki notes to paste (draft — edit before posting)
 
-> **Week 09** — progress: first draft of my final project proposal (main idea: *Music Timeline*, plus a DJ-room idea and a few others) in [`Week09/proposal.md`](https://github.com/cvd9683-gif/molab-2026-itp-cathy/blob/main/Week09/proposal.md). Firebase Option 1: MakeItSo tutorial in [`Week09/MakeItSo`](https://github.com/cvd9683-gif/molab-2026-itp-cathy/tree/main/Week09/MakeItSo). problems: _…_ plans: build the offline timeline first, then add Firestore sharing. questions: _…_
+> **Week 09** — progress: first draft of my final project proposal (main idea: *Date Dice*, plus other ideas) in [`Week09/proposal.md`](https://github.com/cvd9683-gif/molab-2026-itp-cathy/blob/main/Week09/proposal.md). Firebase Option 1: MakeItSo tutorial in [`Week09/MakeItSo`](https://github.com/cvd9683-gif/molab-2026-itp-cathy/tree/main/Week09/MakeItSo). problems: _…_ plans: Week 11 starts in Figma, then offline dice + local timeline; Week 12 Firebase room sync. questions: _…_

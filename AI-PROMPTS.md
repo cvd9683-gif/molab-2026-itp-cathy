@@ -66,6 +66,18 @@ The course homework pages are [Week 09](https://github.com/molab-itp/content-202
 
 ---
 
+## Week 10 — Date Dice proposal and plan
+
+**Date:** Wednesday, Nov 11, 2026, about 10:21 PM ET.  
+**Tool:** molab assistant.  
+**Cathy's request (verbatim):**
+
+> For the project, can we just call it Date Dice? and then I think at one point he asked for a week by week plan, so obviously week 10 is like the proposal and plan. Week 11. Would be all that. I think at some point I want to say like start at Figma and like we can explain that. Basically I realize for aesthetics, vibe coding is easier when you design first and then push that to the agent to code. So that's probably like around the timeline. For all of that and stuff, but yeah, just add a Figma section and yeah. And then I guess like, because it's week 11, we can just do that assignment after. But once you make those edits, just push it and yeah, so that way it's submitted.
+
+**Produced:** Date Dice proposal + plan — [Week09/proposal.md](./Week09/proposal.md), [Week10/README.md](./Week10/README.md).
+
+---
+
 ## Course planning / general — Cathy's messages in this molab chat
 
 Quoted verbatim. Tool: molab assistant.
